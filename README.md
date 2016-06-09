@@ -12,7 +12,7 @@ Also provides one liner compatablity for your existing EditText / TextViews.
 
 Demo
 -----
-<img src='https://cloud.githubusercontent.com/assets/13122232/15903038/71365c46-2dc8-11e6-87e4-095f22f4d087.gif' width=300 height=480 />
+<img src='https://raw.githubusercontent.com/cooltechworks/WhatsappFormatter/master/screenshot/whatsappformattingdemo.gif' width=300 height=480 />
 
 
 Usage
