@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.cooltechworks.views"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.cooltechworks.whatsappview.demo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/box_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/send_button"
+            android:layout_gravity="top|center"
+            android:layout_toLeftOf="@+id/send_button"
+            android:background="@drawable/bg_rounded_rect_grey_big_corner_radius">
+
+            <EditText
+                android:id="@+id/whatsapp_edit_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Message"
+                android:minHeight="48dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+        </FrameLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/padding_default_half"
+            android:padding="0dp"
+            android:src="@drawable/ic_action_send"
+            app:backgroundTint="@color/colorAccent"
+            app:borderWidth="0dp"
+            app:fab_size="mini" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
