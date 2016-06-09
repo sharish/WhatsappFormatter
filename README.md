@@ -85,7 +85,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.cooltechworks:WhatsappFormatting:v1.0'
+    compile 'com.github.cooltechworks:WhatsappFormatter:v1.0'
 }
 ```
 
@@ -112,7 +112,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-
-[scratch_image]:https://raw.githubusercontent.com/cooltechworks/ScratchView/2ec97c9a539d5976b68bf62ec07df8c727d72be2/screenshots/scratch_image_view_demo.gif
-[scratch_text]:https://raw.githubusercontent.com/cooltechworks/ScratchView/master/screenshots/scratch_text_view_\
